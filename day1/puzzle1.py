@@ -1,0 +1,1 @@
+print('hello from Advent of Code day 1')
