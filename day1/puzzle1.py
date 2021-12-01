@@ -10,6 +10,5 @@ for i in range(1, l):
 	prev = numbers[i-1]
 	if (num > prev):
 		count += 1
-		print('{} increased from {}. count={}\n'.format(num, prev, count))
-	else:
-		print('{} decreased from {}. count={}\n'.format(num, prev, count))
+
+print(count)
