@@ -8,8 +8,8 @@ p_depth = 0
 for i in input1:
 	direction, distance = i.split()
 	match direction:
-		case "forward": p_horizontal += int(distance)
-		case "down": p_depth += int(distance)
-		case "up": p_depth -= int(distance)		
+		case 'forward': p_horizontal += int(distance)
+		case 'down': p_depth += int(distance)
+		case 'up': p_depth -= int(distance)		
 
 print(p_horizontal*p_depth)
